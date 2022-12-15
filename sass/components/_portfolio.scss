@@ -1,0 +1,191 @@
+.navigation{
+  padding-bottom: 50px;
+}
+.hover:hover {
+  background-color: $accent-color;
+  color: $title-first-color;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.navigation-link{
+  &__button {
+    display: flex;
+    justify-content: center;
+  }
+  &__list:not(:last-child) {
+    margin-right: 8px;}
+
+  &__all{
+    width: 73px;
+    height: 38px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border: none;
+    background: $main-color;
+    border-radius: 4px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: $pre-title-case;
+  }
+  &__web {
+    width: 125px;
+    height: 38px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border: none;
+    background: $main-color;
+    border-radius: 4px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: $pre-title-case;
+    
+  }
+  &__applications {
+    display: inline-block;
+    width: 112px;
+    height: 38px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border: none;
+    background: $main-color;
+    border-radius: 4px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: $pre-title-case;
+  }
+  &__design {
+    display: inline-block;
+    width: 103px;
+    height: 38px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border: none;
+    background: $main-color;
+    border-radius: 4px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: $pre-title-case;
+  }
+  &__market {
+    display: inline-block;
+    width: 130px;
+    height: 38px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border: none;
+    background: $main-color;
+    border-radius: 4px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: $pre-title-case;
+  }
+}
+.fotos-section{
+&__list{
+  width: 1170px;
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+}
+&__card{
+  background: $title-first-color;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  display: grid;
+}
+&__card:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+&__card:nth-last-child(3n + 1) {
+  margin-right: 0;
+}
+&__card:hover .overlay {
+  transform: translateY(0);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+&__card:hover { box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+  1px 4px 6px rgba(0, 0, 0, 0.16);}
+
+&__text{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+&__description{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background: $title-first-color;
+  border: 1px solid #eeeeee;
+  border-top: 0px;
+}
+&__title{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: $pre-title-case;
+  /* border: 1px solid #EEEEEE; */
+}
+&__text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  /* identical to box height, or 188% */
+  letter-spacing: 0.03em;
+  color:$title-second-color;
+}
+}
+
+.overlay {
+  position: absolute;
+  padding: 63px 24px;
+  background: rgba(33, 150, 243, 0.9);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  transition-property: inherit;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+
+
+
+
+
+
+// &hover,&focus {
+//   background-color: $accent-color;
+//   color: $title-first-color;
+//   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+//     0px 2px 2px rgba(0, 0, 0, 0.12);
+//   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// }
+

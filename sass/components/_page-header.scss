@@ -1,0 +1,259 @@
+.header-container{
+  position: relative;
+  @media screen and (min-width: 480px ){
+    width: 480px;
+    padding: 0
+    ;
+    @media screen and (min-width: 768px ){
+      width: 768px;
+      padding: 0}
+}
+.header {
+  padding-left: 15px;
+  padding-top: 16px;
+  padding-right: 15px;
+  border-bottom: 1px solid #ececec;
+  
+  }
+}
+.container-link{
+@media screen and (max-width: 767px ){
+    display: none;
+  }
+}
+.hat {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 767px) {
+  .menu-button{
+    display: none;
+  }
+}
+  .menu-button {
+    margin: 0;
+    padding: 0;
+    margin-left: 266px;
+    border: none;
+    background-color: transparent;
+
+    &__icon-close {
+        display: none;
+    }
+
+    &.is-open &__icon-close {
+        display: block;
+    }
+
+    &.is-open &__icon-menu {
+        display: none;
+    }
+  }
+@media screen and( min-width: 768px) {
+  .header {
+    border-bottom: 1px solid #ececec;
+  
+  }
+  .header-start .portfolio::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    left: 0px;
+    top: 46px;
+    background: $accent-color;
+    border-radius: 2px;
+  }
+  .link:focus,
+.link:hover {
+  color: #2196f3;
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.hat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-start__link {
+  font-family: $main-font;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: $pre-title-case;
+}
+.header-start__navi-ap {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header-start__navi-ap :not(:last-child) {
+  margin-right: 50px;
+}
+.studio {
+  position: relative;
+}
+.studio::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  left: 0;
+  top: 46px;
+  background: $accent-color;
+  border-radius: 2px;
+}
+.portfolio {
+  position: relative;
+}
+
+.contacts{
+  padding: 0;
+  margin: 0;
+  &__list{
+    margin-left: 50px;}
+    
+  &__email{
+    display: inline-flex;
+    margin-bottom: 10px;
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: $title-second-color;
+  }
+  &__tel{
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: $title-second-color;
+  }
+&__icon--email {
+  align-self: center;
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+}
+&__icon--tel {
+  align-self: center;
+  margin-right: 10px;
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
+}
+}}
+
+@media screen and (min-width: 1170px){
+
+.header {
+  border-bottom: 1px solid #ececec;
+
+}
+.header-start .portfolio::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  left: 0px;
+  top: 46px;
+  background: $accent-color;
+  border-radius: 2px;
+}
+.link:focus,
+.link:hover {
+color: #2196f3;
+-webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.pointer {
+cursor: pointer;
+}
+
+.hat {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.header-start__link {
+font-family: $main-font;
+font-weight: 500;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.02em;
+color: $pre-title-case;
+}
+.header-start__navi-ap {
+display: flex;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+.header-start__navi-ap :not(:last-child) {
+margin-right: 50px;
+}
+.studio {
+position: relative;
+}
+.studio::after {
+content: "";
+position: absolute;
+width: 100%;
+height: 5px;
+left: 0;
+top: 46px;
+background: $accent-color;
+border-radius: 2px;
+}
+.portfolio {
+position: relative;
+}
+
+.contacts{
+display: flex;
+margin: 0;
+&__list{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: 50px;}
+&__email{
+  display: inline-flex;
+  font-family: $main-font;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: $title-second-color;
+}
+&__tel{
+  display: inline-flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: $title-second-color;
+}
+&__icon--email {
+align-self: center;
+margin-right: 10px;
+width: 16px;
+height: 12px;
+fill: currentColor;
+}
+&__icon--tel {
+align-self: center;
+margin-right: 10px;
+width: 10px;
+height: 16px;
+fill: currentColor;
+}
+}}

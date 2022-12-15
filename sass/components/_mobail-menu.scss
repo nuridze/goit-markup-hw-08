@@ -1,0 +1,123 @@
+@media screen and ( max-width: 767px ){
+  .menu-mobile {
+  display: none;
+}}
+.menu-mobile {
+    display: none;
+    position: absolute;
+    top:100%;
+    left: 2px;
+    width: 100%;
+    height: 796px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+                   
+    &.is-open {
+    @media screen and (max-width: 767px) {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: initial;
+ }
+    @media screen and (min-width: 768px) {
+    display: none;
+            }
+    }
+}
+.menu-mobile__navigation {
+  display: block;
+}
+.menu-mobile__list:not(:last-child) {
+  margin-bottom: 32px;
+}
+.site-nav-mobile {
+    margin: 0;
+    padding-top: 48px;
+    margin-bottom: 302px;
+  &__link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+    color: #212121;
+  }
+}
+.menu-mobile {
+    &__contacts{
+        margin: 0;
+        margin-bottom: 64px;
+    }
+  &__tel {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+
+    color: #2196f3;
+  }
+  &__link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #757575;
+  }
+}
+.menu-link__item:not(:last-child) {
+  margin-right: 20px;
+ 
+}
+
+.menu-link__Instagram ::before{
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 0px;
+  left: 125px;
+  top: 50%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  transform: rotate(90deg);
+}
+.menu-link__Twitter::before{
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 0px;
+  left: 202px;
+  top: 50%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  transform: rotate(90deg);
+}
+.menu-link__Facebook::before{
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 0px;
+  left: 304px;
+  top: 50%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  transform: rotate(90deg);
+}
+.menu-link {
+  position: relative;
+  display: inline-flex;
+  margin:0 ;
+  &__social-links {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+    letter-spacing: 0.02em;
+    color: #2196f3;
+   
+  }
+}
