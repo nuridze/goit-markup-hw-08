@@ -1,6 +1,4 @@
-@media screen and (max-width: 767px){
 .social-networks{
-  height: 80px;
   margin-top: 72px;
 
   &__title{
@@ -55,29 +53,14 @@
       margin: 0;
     }
   }
-}
-@media screen and (max-width: 1169px){
+
+@media screen and (min-width:768px){
   .social-networks{
     height: 80px;
+    margin: 0;
     margin-left: 165px;
-
-  
-    &__title{
-        margin-bottom: 20px;
-        font-family: $main-font;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: $title-first-color;
-      }
-      &__list{
-        display: flex;
-        justify-content: center;
-        padding-bottom: 0;
-      }
+   
+     
       &__item{
         display: inline-block;
         display: flex;
@@ -116,12 +99,9 @@
     }
   }
 
-@media screen and (min-width: 1170px){
+@media screen and (min-width: 1200px){
   .social-networks{
-    width: 206px;
-    height: 80px;
     margin-left: 70px;
-    padding-top: 72px;
 
     &__title{
         margin-bottom: 20px;

@@ -1,6 +1,4 @@
-@media screen and (max-width: 767px){
-  .team {
-    width: 480px;
+.team {
     background: $main-color;
    
     &__our{
@@ -75,9 +73,9 @@
       display: block;
       fill: currentColor;
     }
-  }}
+  }
 
-  @media screen and (max-width: 1169px) {
+  @media screen and (min-width:768px) {
   .team{
     background: $main-color;
     &__foto-team{
@@ -97,6 +95,7 @@
    
     &__dream-team{
       width: 354px;
+      height: 536px;
       background: $title-first-color;
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -156,7 +155,7 @@
   }}
 
 
-  @media screen and (min-width: 1170px){
+  @media screen and (min-width: 1200px){
     .team {
       background: $main-color;
       &__foto-team{
@@ -174,15 +173,16 @@
      
       &__dream-team{
         width: 270px;
+        height: 428px;
         background: $title-first-color;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
           0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
       }
-      &__dream-team:not(:last-child) {
-        margin-right: 30px;
-        padding-left: 0;
-      }
+      // &__dream-team:not(:last-child) {
+      //   margin-right: 30px;
+      //   padding-left: 0;
+      // }
      
       &__name{
         margin-top: 30px;

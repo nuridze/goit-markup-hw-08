@@ -7,6 +7,9 @@
     @media screen and (min-width: 768px ){
       width: 768px;
       padding: 0}
+      @media screen and (min-width: 1200px ){
+        width: 1200px;
+        padding: 0}
 }
 .header {
   padding-left: 15px;
@@ -49,7 +52,7 @@
         display: none;
     }
   }
-@media screen and( min-width: 768px) {
+@media screen and(min-width:768px) {
   .header {
     border-bottom: 1px solid #ececec;
   
@@ -153,8 +156,13 @@
 }
 }}
 
-@media screen and (min-width: 1170px){
-
+@media screen and (min-width:1200px){
+  .header-container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 .header {
   border-bottom: 1px solid #ececec;
 
@@ -184,6 +192,7 @@ cursor: pointer;
 display: flex;
 align-items: center;
 justify-content: space-between;
+padding: 0;
 }
 .header-start__link {
 font-family: $main-font;
@@ -222,10 +231,12 @@ position: relative;
 display: flex;
 margin: 0;
 &__list{
+ 
   padding-top: 32px;
   padding-bottom: 32px;
   margin-left: 50px;}
 &__email{
+  margin: 0;
   display: inline-flex;
   font-family: $main-font;
   font-weight: 500;
