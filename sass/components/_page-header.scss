@@ -11,13 +11,6 @@
         width: 1200px;
         padding: 0}
 }
-.header {
-  padding-left: 15px;
-  padding-top: 16px;
-  padding-right: 15px;
-  border-bottom: 1px solid #ececec;
-  
-  }
 }
 .container-link{
 @media screen and (max-width: 767px ){
@@ -246,6 +239,7 @@ margin: 0;
   color: $title-second-color;
 }
 &__tel{
+  font-family:$main-font;
   display: inline-flex;
   font-weight: 500;
   font-size: 14px;

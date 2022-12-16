@@ -49,6 +49,7 @@
   }
   &__title{
     padding-bottom: 10px;
+    font-family: $main-font;
     color: $pre-title-case;
     font-weight: 700;
     font-size: 14px;
@@ -56,6 +57,7 @@
   }
   &__text{
     width: 356px;
+    font-family: $main-font;
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
@@ -68,7 +70,7 @@
 }
 @media screen and (min-width: 1200px){
   .benefits {
-    margin-bottom: 118px;
+    margin-bottom: 94px;
     display: flex;
   // &__list:not(:last-child) {
   //   margin-right: 30px;
@@ -87,6 +89,7 @@
   }
   &__title{
     padding-bottom: 10px;
+    font-family: $main-font;
     color: $pre-title-case;
     font-weight: 700;
     font-size: 14px;
@@ -94,6 +97,7 @@
   }
   &__text{
     width: 270px;
+    font-family: $main-font;
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);

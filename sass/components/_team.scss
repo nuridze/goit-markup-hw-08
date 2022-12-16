@@ -3,6 +3,7 @@
    
     &__our{
       padding-bottom: 50px;
+      font-family: $main-font;
       font-weight: 700;
       font-size: 36px;
       line-height: calc(42 / 36);
@@ -26,6 +27,7 @@
     &__name{
       margin-top: 30px;
       margin-bottom: 10px;
+      font-family: $main-font;
       font-weight: 500;
       font-size: 16px;
       line-height: calc(19 / 16);
@@ -37,6 +39,7 @@
       text-align: center;
       letter-spacing: 0.03em;
       margin-bottom: 16px;
+      font-family: $main-font;
       color: $title-second-color;
       font-weight: 400;
       font-size: 16px;
@@ -163,6 +166,7 @@
       }
       &__our{
         padding-bottom: 50px;
+        font-family: $main-font;
         font-weight: 700;
         font-size: 36px;
         line-height: calc(42 / 36);
@@ -187,6 +191,7 @@
       &__name{
         margin-top: 30px;
         margin-bottom: 10px;
+        font-family: $main-font;
         font-weight: 500;
         font-size: 16px;
         line-height: calc(19 / 16);
@@ -198,6 +203,7 @@
         text-align: center;
         letter-spacing: 0.03em;
         margin-bottom: 16px;
+        font-family: $main-font;
         color: $title-second-color;
         font-weight: 400;
         font-size: 16px;

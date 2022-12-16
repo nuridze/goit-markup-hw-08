@@ -25,7 +25,20 @@ p {
 }
 
 .container {
-  width: 480px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+  .container .section {
+    padding-left: 15px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -99,12 +112,6 @@ p {
     width: 1200px;
     padding: 0;
   }
-}
-.header-container .header {
-  padding-left: 15px;
-  padding-top: 16px;
-  padding-right: 15px;
-  border-bottom: 1px solid #ececec;
 }
 
 @media screen and (max-width: 767px) {
@@ -357,6 +364,7 @@ p {
     color: #757575;
   }
   .contacts__tel {
+    font-family: "Roboto", sans-serif;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -423,13 +431,11 @@ p {
   -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
 }
-@media screen and (max-width: 767px) {
-  .menu-mobile.is-open {
-    display: block;
-    opacity: 1;
-    visibility: visible;
-    pointer-events: initial;
-  }
+.menu-mobile.is-open {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: initial;
 }
 @media screen and (min-width: 768px) {
   .menu-mobile.is-open {
@@ -977,6 +983,7 @@ textarea {
   }
   .benefits__title {
     padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
     color: #212121;
     font-weight: 700;
     font-size: 14px;
@@ -984,6 +991,7 @@ textarea {
   }
   .benefits__text {
     width: 356px;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7142857143;
@@ -993,7 +1001,7 @@ textarea {
 }
 @media screen and (min-width: 1200px) {
   .benefits {
-    margin-bottom: 118px;
+    margin-bottom: 94px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1013,6 +1021,7 @@ textarea {
   }
   .benefits__title {
     padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
     color: #212121;
     font-weight: 700;
     font-size: 14px;
@@ -1020,6 +1029,7 @@ textarea {
   }
   .benefits__text {
     width: 270px;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7142857143;
@@ -1083,6 +1093,7 @@ textarea {
 }
 .team__our {
   padding-bottom: 50px;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1666666667;
@@ -1104,6 +1115,7 @@ textarea {
 .team__name {
   margin-top: 30px;
   margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1875;
@@ -1115,6 +1127,7 @@ textarea {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 16px;
+  font-family: "Roboto", sans-serif;
   color: #757575;
   font-weight: 400;
   font-size: 16px;
@@ -1265,6 +1278,7 @@ textarea {
   }
   .team__our {
     padding-bottom: 50px;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1666666667;
@@ -1283,6 +1297,7 @@ textarea {
   .team__name {
     margin-top: 30px;
     margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1875;
@@ -1294,6 +1309,7 @@ textarea {
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 16px;
+    font-family: "Roboto", sans-serif;
     color: #757575;
     font-weight: 400;
     font-size: 16px;
@@ -1346,6 +1362,7 @@ textarea {
   text-align: center;
   padding-top: 94px;
   margin-bottom: 50px;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -1480,6 +1497,7 @@ textarea {
     text-align: center;
     padding-top: 94px;
     margin-bottom: 50px;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -1543,7 +1561,6 @@ textarea {
   }
 }
 .footer {
-  width: 480px;
   background-color: #2f303a;
 }
 
@@ -1573,6 +1590,7 @@ textarea {
 }
 .footer-location__list {
   margin-top: 9px;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1585,7 +1603,6 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .footer {
-    width: 768px;
     background-color: #2f303a;
     padding-left: 15px;
     padding-right: 15px;
@@ -1608,7 +1625,6 @@ textarea {
 }
 @media screen and (min-width: 1200px) {
   .footer {
-    width: 1200px;
     background-color: #2f303a;
     padding: 0;
     padding-left: 15px;

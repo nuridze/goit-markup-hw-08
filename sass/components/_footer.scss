@@ -1,5 +1,4 @@
 .footer{
-  width: 480px;
   background-color: #2f303a;
 }
 .container-footer{
@@ -25,6 +24,7 @@
   }
   &__list{
     margin-top: 9px;
+    font-family: $main-font;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -37,7 +37,7 @@
  
 @media screen and (min-width:768px){
   .footer{
-    width: 768px;
+  
     background-color: #2f303a;
     padding-left: 15px;
     padding-right: 15px;
@@ -57,7 +57,7 @@
  
 @media screen and (min-width:1200px){
   .footer{
-    width: 1200px;
+
     background-color: #2f303a;
     padding: 0;
       padding-left: 15px;
