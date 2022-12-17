@@ -1,3 +1,11 @@
+@media screen and ( max-width: 767px ){
+  .header-logo{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+}
+
 .header-logo{
   &__logo{
     font-family: $logo-font;
